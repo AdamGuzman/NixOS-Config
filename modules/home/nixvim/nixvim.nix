@@ -12,6 +12,7 @@ in
       ./plugins/harpoon.nix
       ./plugins/lualine.nix
       ./plugins/lazy.nix
+      ./plugins/lsp.nix
     ];
     enable = true;
     globals.mapleader = " ";
