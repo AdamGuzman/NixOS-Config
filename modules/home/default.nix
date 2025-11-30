@@ -6,7 +6,6 @@
     ./starship.nix
     ./git.nix
     ./zsh.nix
-    ./helix.nix
     ./nixvim
   ];
 }
