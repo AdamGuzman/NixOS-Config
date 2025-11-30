@@ -7,7 +7,6 @@
   home.packages = with pkgs; [
     fastfetch
     tmux
-    yazi
     zip
     xz
     unzip
