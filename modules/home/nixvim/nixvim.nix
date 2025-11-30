@@ -1,7 +1,3 @@
-{ pkgs, lib, config, ... }:
-let
-  enable_nerd_fonts = true;
-in
 {
   programs.nixvim = {
     imports = [
