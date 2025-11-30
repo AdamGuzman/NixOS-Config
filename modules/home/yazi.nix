@@ -1,7 +1,7 @@
 {
   programs.yazi = {
     enable = true;
-    flavor = {
+    flavors = {
       dark = "catppuccin-mocha";
     };
   };
