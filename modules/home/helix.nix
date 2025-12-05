@@ -24,6 +24,35 @@
         };
         indent-guides.render = true;
         soft-wrap.enable = true;
+        color-modes = true;
+        statusline = {
+          mode = {
+            normal = "NORMAL";
+            insert = "INSERT";
+            select = "SELECT";
+          };
+          left = [
+            "mode"
+            "spacer"
+            "file-name"
+            "separator"
+            "spacer"
+            "version-control"
+            "spacer"
+            "spinner"
+          ];
+          right = [
+            "workspace-diagnostics"
+            "diagnostics"
+            "file-modification-indicator"
+            "file-encoding"
+            "file-line-ending"
+            "separator"
+            "position"
+            "position-percentage"
+          ];
+          center = [ "read-only-indicator" ];
+        };
       };
       keys = {
         normal = {
