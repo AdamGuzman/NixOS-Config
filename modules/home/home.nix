@@ -50,7 +50,6 @@
     lazysql
     slack
     discord
-    zoxide
   ];
 
   home.sessionVariables = rec {
