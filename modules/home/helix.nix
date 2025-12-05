@@ -1,6 +1,7 @@
 { pkgs, ... }:
 {
   programs.helix = {
+    defaultEditor = true;
     enable = true;
     settings = {
       theme = "tokyonight";
@@ -25,7 +26,8 @@
         soft-wrap.enable = true;
       };
       keys = {
-        normal ={
+        normal = {
+          A-x = "extend_line_above";
           space = {
             e = [
               ":sh rm -f /tmp/unique-file-h21a434"
