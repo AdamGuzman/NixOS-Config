@@ -50,8 +50,16 @@
     lazysql
     slack
     discord
+    zoxide
   ];
 
+  programs.zoxide = {
+    enableZshIntegration = true;
+    options = [
+      "--cmd cd"
+    ];
+  };
+  
   home.sessionVariables = rec {
     XDG_CACHE_HOME  = "$HOME/.cache";
     XDG_CONFIG_HOME = "$HOME/.config";
