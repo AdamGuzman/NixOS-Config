@@ -3,7 +3,7 @@
   programs.helix = {
     enable = true;
     settings = {
-      theme = "tokyo-night";
+      theme = "tokyonight";
       editor = {
         line-number = "relative";
         bufferline = "multiple";
