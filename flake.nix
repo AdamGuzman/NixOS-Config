@@ -13,7 +13,7 @@
      };
     };
 
-  outputs = inputs@{ nixpkgs, home-manager, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixvim, ... }: {
     nixosConfigurations = {
       framework = nixpkgs.lib.nixosSystem {
         modules = [
@@ -23,7 +23,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.sharedModules = [
-              inputs.nixvim.homeManagerModules.nixvim
+              nixvim.homeManagerModules.nixvim
             ];
             home-manager.users.adam = import ./modules/home;
           }

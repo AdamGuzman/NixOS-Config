@@ -3,6 +3,7 @@
   imports = [
     ./ghostty.nix
     ./git.nix
+    ./helix.nix
     ./home.nix
     ./nixvim
     ./starship.nix
