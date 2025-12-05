@@ -22,7 +22,7 @@
           git-ignore = false;
         };
         indent-guides.render = true;
-        softwrap.enable = true;
+        soft-wrap.enable = true;
       };
     };
     languages = {
