@@ -2,7 +2,7 @@
   programs.ghostty = {
     enable = true;
     settings = {
-      theme = "TokyoNight";
+      theme = "tokyonight";
       font-size = 15;
       window-decoration = "none";
     };

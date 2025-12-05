@@ -57,7 +57,7 @@
     XDG_CONFIG_HOME = "$HOME/.config";
     XDG_DATA_HOME   = "$HOME/.local/share";
     XDG_STATE_HOME  = "$HOME/.local/state";
-    EDITOR = "nvim";
+    EDITOR = "hx";
   };
 
   home.stateVersion = "25.05";
