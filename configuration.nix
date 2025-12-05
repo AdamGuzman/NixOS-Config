@@ -54,6 +54,7 @@
     neofetch
     brave
     fprintd
+    gimp
   ];
 
 
