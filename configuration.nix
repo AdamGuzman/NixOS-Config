@@ -55,6 +55,7 @@
     brave
     fprintd
     gimp
+    openvpn
   ];
 
 
