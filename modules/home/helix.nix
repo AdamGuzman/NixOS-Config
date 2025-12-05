@@ -49,6 +49,7 @@
             "file-line-ending"
             "separator"
             "position"
+            "separator"
             "position-percentage"
           ];
           center = [ "read-only-indicator" ];
