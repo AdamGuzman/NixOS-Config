@@ -3,17 +3,17 @@
   programs.zed-editor = {
     enable = true;
     extensions = [
-      "Nix"
-      "TOML"
-      "Make"
-      "HTML"
-      "PHP"
-      "Dockerfile"
-      "Git Firefly"
-      "Lua"
+      "nix"
+      "toml"
+      "make"
+      "html"
+      "php"
+      "dockerfile"
+      "git firefly"
+      "lua"
       "golangci-lint"
-      "Python LSP"
-      "SQL"
+      "python lsp"
+      "sql"
       ];
 
     userSettings = {

@@ -17,6 +17,7 @@ programs.zsh = {
     vim = "nvim";
     lg = "lazygit";
     ldb = "lazysql";
+    zed = "zeditor";
   };
   history.size = 10000;
   };
