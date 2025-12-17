@@ -8,6 +8,7 @@
     ./nixvim
     ./starship.nix
     ./yazi.nix
+    ./zed.nix
     ./zsh.nix
   ];
 }
