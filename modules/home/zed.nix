@@ -54,6 +54,7 @@
           path_lookup = true;
         };
       };
+    };
 
       vim_mode = true;
 
@@ -68,7 +69,6 @@
       show_whitespaces = "all";
       ui_font_size = 16;
       buffer_font_size = 16;
-      };
     };
   };
 }
