@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 {
   programs.zed-editor = {
     enable = true;
@@ -21,7 +21,7 @@
       npm_path = lib.getExe' pkgs.nodejs "npm";
     };
 
-    hour_format = "hour24";
+    hour_format = "hour12";
     auto_update = false;
 
     terminal = {
@@ -39,11 +39,7 @@
         TERM = "alacritty";
       };
       font_family = "FiraCode Nerd Font";
-      font_features = null;
-      font_size = null;
       line_height = "comfortable";
-      option_as_meta = false;
-      button = false;
       shell = "system";
       toolbar = {
         title = true;
@@ -72,6 +68,7 @@
       show_whitespaces = "all";
       ui_font_size = 16;
       buffer_font_size = 16;
+      };
     };
   };
 }
