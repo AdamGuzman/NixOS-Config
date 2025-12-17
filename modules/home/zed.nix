@@ -2,7 +2,7 @@
 {
   programs.zed-editor = {
     enable = true;
-    extentions = [
+    extensions = [
       "Nix"
       "TOML"
       "Make"
