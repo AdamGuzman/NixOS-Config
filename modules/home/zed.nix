@@ -15,11 +15,12 @@
       "Python LSP"
       "SQL"
       ];
+
     userSettings = {
       node = {
       path = lib.getExe pkgs.nodejs;
       npm_path = lib.getExe' pkgs.nodejs "npm";
-    };
+      };
 
     hour_format = "hour12";
     auto_update = false;
@@ -56,7 +57,6 @@
 
       vim_mode = true;
 
-      load_direnv = "shell_hook";
       base_keymap = "VSCode";
 
       theme = {
